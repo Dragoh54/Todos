@@ -1,0 +1,49 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto;
+  width:60%;
+  font-size: larger;
+}
+
+.upBox{
+  display: flex;
+  justify-content: space-between;
+  margin: 3%;
+}
+
+.todoNumber{
+  display: flex;
+}
+
+.inputTodo{
+  display: flex;
+  justify-content: space-between;
+  margin:3% 3% 3% 3%;
+}
+
+.inputName{
+  width:70%;
+  height: 30px;
+  font-size: larger;
+}
+.save{
+  margin:0 0 0 3%;
+  font-size: larger;
+}
+
+.todoList{
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+}
+
+.todoList > div{
+  height: 50px;
+  font-size: larger;
+}
+
+input[type="checkbox"]{
+  width:20px;
+  height:20px;
+}
